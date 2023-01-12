@@ -38,9 +38,14 @@ html {
 .terms {
   height: 400px;
   padding: 70px;
+  overflow: auto;
 }
 
 .button-container {
   margin-top: 50px;
   text-align: center;
+}
+
+.terms box{
+  overflow-y: auto;
 }
