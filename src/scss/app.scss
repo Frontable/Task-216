@@ -25,7 +25,6 @@ html {
   align-items: center;
   justify-content: center;
   box-shadow: 50%;
-  overflow: auto;
 }
 
 .main {
@@ -34,21 +33,18 @@ html {
   align-items: center;
   justify-content: center;
   box-shadow: 50%;
-  overflow: auto;
 }
 
 .terms {
   height: 400px;
   padding: 70px;
-  overflow-y: visible scroll;
+  overflow-y:  scroll;
+  overflow-x: hidden;
 }
 
 .button-container {
   margin-top: 50px;
   text-align: center;
-  overflow: auto;
 }
 
-.terms box{
-  overflow-y: auto;
-}
+
